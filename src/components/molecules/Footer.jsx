@@ -44,7 +44,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex items-center justify-between mt-10 text-sm font-medium leading-5 text-gray-500 max-md:flex-wrap max-md:max-w-full">
-          <div>© 2022 Monito. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Monito. All rights reserved.</div>
           <a href="/">
             <img
               loading="lazy"

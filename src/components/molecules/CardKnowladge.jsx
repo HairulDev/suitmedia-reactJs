@@ -6,11 +6,11 @@ import HeaderWithButton from "../atoms/HeaderWithButton";
 function ItemKnowladge({ image, title, description }) {
   return (
     <div className="flex flex-col max-w-xs bg-white rounded-xl shadow-lg mb-4">
-      <div className="aspect-w-16 aspect-h-9">
+      <div className="aspect-w-16 aspect-h-9 p-2">
         <img
           src={image}
           alt={title}
-          className="w-full aspect-w-4 aspect-h-3 object-cover"
+          className="w-full rounded-xl aspect-w-4 aspect-h-3 object-cover"
         />
       </div>
       <div className="p-3 flex flex-col py-2 pr-2 mt-2">

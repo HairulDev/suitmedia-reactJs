@@ -7,12 +7,12 @@ import HeaderWithButton from "../atoms/HeaderWithButton";
 function ProductItem({ product }) {
   return (
     <div className="flex flex-col max-w-xs bg-white rounded-xl shadow-lg mb-4">
-      <div className="aspect-w-16 aspect-h-9">
+      <div className="aspect-w-16 aspect-h-9 p-2">
         <img
           loading="lazy"
           src={product.image}
           alt={`${product.name} ${product.id}`}
-          className="w-full aspect-square"
+          className="w-full rounded-xl aspect-square"
         />
       </div>
       <div className="p-4">

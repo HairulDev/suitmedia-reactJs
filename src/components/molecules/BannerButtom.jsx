@@ -1,6 +1,6 @@
 import * as React from "react";
 import banner2 from "../../assets/images/banner/banner2.png";
-import shapeYellow from "../../assets/images/shapeYellow.png";
+import shapeYellow from "../../assets/images/shapeYellow2.png";
 import iconPlay from "../../assets/images/icons/iconPlay.png";
 import Button from "../atoms/Button";
 import Modal from "./Modal";
