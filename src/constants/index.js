@@ -81,7 +81,7 @@ const productsData = [
     type: "Dog Food",
     size: "385gm",
     price: "140.000 VND",
-    image: "../../src/assets/images/products/product1.png",
+    image: "images/products/product1.png",
     discount: "Free Toy & Free Shaker"
   },
   {
@@ -90,7 +90,7 @@ const productsData = [
     type: "Dog Food",
     size: "500gm",
     price: "120.000 VND",
-    image: "../../src/assets/images/products/product2.png",
+    image: "images/products/product2.png",
     discount: "Free Toy & Free Shaker"
   },
   {
@@ -99,7 +99,7 @@ const productsData = [
     type: "Dog Food",
     size: "1kg",
     price: "200.000 VND",
-    image: "../../src/assets/images/products/product3.png",
+    image: "images/products/product3.png",
     discount: "Free Cat Food"
   },
   {
@@ -108,7 +108,7 @@ const productsData = [
     type: "Cat Food",
     size: "200gm",
     price: "80.000 VND",
-    image: "../../src/assets/images/products/product4.png",
+    image: "images/products/product4.png",
     discount: "Free Cat Food"
   },
   {
@@ -117,7 +117,7 @@ const productsData = [
     type: "Cat Food",
     size: "500gm",
     price: "150.000 VND",
-    image: "../../src/assets/images/products/product5.png",
+    image: "images/products/product5.png",
     discount: "Free Toy & Free Shaker"
   },
   {
@@ -126,7 +126,7 @@ const productsData = [
     type: "Small Animal Food",
     size: "500gm",
     price: "100.000 VND",
-    image: "../../src/assets/images/products/product6.png",
+    image: "images/products/product6.png",
     discount: "Free Toy & Free Shaker"
   },
   {
@@ -135,7 +135,7 @@ const productsData = [
     type: "Dog Accessories",
     size: "Various",
     price: "350.000 VND",
-    image: "../../src/assets/images/products/product7.png",
+    image: "images/products/product7.png",
     discount: "Free Cat Food"
   },
   {
@@ -144,7 +144,7 @@ const productsData = [
     type: "Cat Accessories",
     size: "N/A",
     price: "50.000 VND",
-    image: "../../src/assets/images/products/product8.png",
+    image: "images/products/product8.png",
     discount: "Free Toy & Free Shaker"
   }
 ];
@@ -152,45 +152,45 @@ const productsData = [
 const sellersData = [
   {
     id: "S0001",
-    image: "../../src/assets/images/sellers/seller1.png",
+    image: "images/sellers/seller1.png",
   },
   {
     id: "S0002",
-    image: "../../src/assets/images/sellers/seller2.png",
+    image: "images/sellers/seller2.png",
   },
   {
     id: "S0003",
-    image: "../../src/assets/images/sellers/seller3.png",
+    image: "images/sellers/seller3.png",
   },
   {
     id: "S0004",
-    image: "../../src/assets/images/sellers/seller4.png",
+    image: "images/sellers/seller4.png",
   },
   {
     id: "S0005",
-    image: "../../src/assets/images/sellers/seller5.png",
+    image: "images/sellers/seller5.png",
   },
   {
     id: "S0006",
-    image: "../../src/assets/images/sellers/seller6.png",
+    image: "images/sellers/seller6.png",
   },
 ];
 
 const petKnowledgeData = [
   {
-    image: "../../src/assets/images/pets/knowladge1.png",
+    image: "images/pets/knowladge1.png",
     title: "What is a Pomeranian? How to Identify Pomeranian Dogs",
     description:
       "The Pomeranian, also known as the Pomeranian (Pom dog), is always in the top of the cutest pets. Not only that, the small, lovely, smart, friendly, and skillful circus dog breed.",
   },
   {
-    image: "../../src/assets/images/pets/knowladge2.png",
+    image: "images/pets/knowladge2.png",
     title: "Dog Diet You Need To Know",
     description:
       "Dividing a dog's diet may seem simple at first, but there are some rules you should know so that your dog can easily absorb the nutrients in the diet. For those who are just starting to raise dogs, especially newborn puppies with relatively weak resistance.",
   },
   {
-    image: "../../src/assets/images/pets/knowladge3.png",
+    image: "images/pets/knowladge3.png",
     title:
       "Why Dogs Bite and Destroy Furniture and How to Prevent It Effectively",
     description:
