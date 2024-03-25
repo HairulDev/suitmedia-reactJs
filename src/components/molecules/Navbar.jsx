@@ -12,19 +12,20 @@ function Navbar() {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-    console.log("isOpen==>>", isOpen);
   };
 
   return (
     <div className="flex justify-center items-center px-16 py-7 bg-[linear-gradient(103deg,#FCEED5_6.43%,#FCEED5_78.33%,#FFE7BA_104.24%)] text-base max-md:px-5">
       <div className="flex gap-5 justify-between max-md:flex-wrap">
         <div className="flex gap-5 justify-between my-auto font-bold whitespace-nowrap leading-[150%] text-sky-950 max-md:flex-wrap">
-          <img
-            loading="lazy"
-            src={logo}
-            alt="Logo"
-            className="shrink-0 max-w-full aspect-[2.86] w-[115px]"
-          />
+          <a href="/">
+            <img
+              loading="lazy"
+              src={logo}
+              alt="Logo"
+              className="shrink-0 max-w-full aspect-[2.86] w-[115px]"
+            />
+          </a>
           <Menu menuItems={menuData} />
         </div>
         <div className="flex gap-3.5 pl-6 font-medium max-md:flex-wrap">

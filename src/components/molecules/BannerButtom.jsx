@@ -3,8 +3,18 @@ import banner2 from "../../assets/images/banner/banner2.png";
 import shapeYellow from "../../assets/images/shapeYellow.png";
 import iconPlay from "../../assets/images/icons/iconPlay.png";
 import Button from "../atoms/Button";
+import Modal from "./Modal";
 
 function BannerButtom() {
+  const [modalOpen, setModalOpen] = React.useState(false);
+
+  const handleOpenModal = () => {
+    setModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setModalOpen(false);
+  };
   return (
     <section className="mt-7 rounded-3xl bg-[#FFB775] max-md:pr-5">
       <div className="flex gap-5 max-md:flex-col max-md:gap-0">
@@ -36,6 +46,7 @@ function BannerButtom() {
                 outlined="outlined"
                 rounded="rounded-[57px]"
                 iconSrc={iconPlay}
+                onClick={handleOpenModal}
               >
                 View Intro
               </Button>
@@ -51,6 +62,19 @@ function BannerButtom() {
             className="grow w-full aspect-[1.49] max-md:mt-10 max-md:max-w-full"
           />
         </div>
+        <Modal open={modalOpen} onClose={handleCloseModal}>
+          <div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/your-video-id"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </Modal>
       </div>
     </section>
   );

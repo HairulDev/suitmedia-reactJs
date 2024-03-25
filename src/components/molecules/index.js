@@ -7,6 +7,7 @@ import Seller from "./Seller";
 import BannerButtom from "./BannerButtom";
 import CardKnowladge from "./CardKnowladge";
 import Footer from "./Footer";
+import Modal from "./Modal";
 
 
 export {
@@ -19,4 +20,5 @@ export {
   BannerButtom,
   CardKnowladge,
   Footer,
+  Modal,
 };

@@ -45,12 +45,14 @@ function Footer() {
         </div>
         <div className="flex items-center justify-between mt-10 text-sm font-medium leading-5 text-gray-500 max-md:flex-wrap max-md:max-w-full">
           <div>© 2022 Monito. All rights reserved.</div>
-          <img
-            loading="lazy"
-            src={logo}
-            alt="Logo"
-            className="w-[115px] h-auto"
-          />
+          <a href="/">
+            <img
+              loading="lazy"
+              src={logo}
+              alt="Logo"
+              className="w-[115px] h-auto"
+            />
+          </a>
           <div>Terms of Service Privacy Policy</div>
         </div>
       </div>
