@@ -7,7 +7,7 @@ const petsData = [
     age: "02 months",
     price: "6.900.000 VND",
     gender: "Male",
-    image: "../assets/images/pets/pet1.png",
+    image: "images/pets/pet1.png",
   },
   {
     id: "MO502",
@@ -16,7 +16,7 @@ const petsData = [
     age: "02 months",
     price: "3.900.000 VND",
     gender: "Female",
-    image: "../assets/images/pets/pet2.png",
+    image: "images/pets/pet2.png",
   },
   {
     id: "MO102",
@@ -25,7 +25,7 @@ const petsData = [
     age: "02 months",
     price: "4.000.000 VND",
     gender: "Male",
-    image: "../assets/images/pets/pet3.png",
+    image: "images/pets/pet3.png",
   },
   {
     id: "MO512",
@@ -34,7 +34,7 @@ const petsData = [
     age: "02 months",
     price: "8.900.000 VND",
     gender: "Male",
-    image: "../assets/images/pets/pet4.png",
+    image: "images/pets/pet4.png",
   },
   {
     id: "MO231",
@@ -43,7 +43,7 @@ const petsData = [
     age: "02 months",
     price: "7.900.000 VND",
     gender: "Male",
-    image: "../assets/images/pets/pet5.png",
+    image: "images/pets/pet5.png",
   },
   {
     id: "MO502",
@@ -52,7 +52,7 @@ const petsData = [
     age: "02 months",
     price: "9.000.000 VND",
     gender: "Male",
-    image: "../assets/images/pets/pet6.png",
+    image: "images/pets/pet6.png",
   },
   {
     id: "MO231",
@@ -61,7 +61,7 @@ const petsData = [
     age: "02 months",
     price: "6.500.000 VND",
     gender: "Male",
-    image: "../assets/images/pets/pet7.png",
+    image: "images/pets/pet7.png",
   },
   {
     id: "MO512",
@@ -70,7 +70,7 @@ const petsData = [
     age: "02 months",
     price: "5.000.000 VND",
     gender: "Male",
-    image: "../assets/images/pets/pet8.png",
+    image: "images/pets/pet8.png",
   },
 ];
 
